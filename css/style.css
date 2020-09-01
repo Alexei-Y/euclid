@@ -1730,12 +1730,19 @@ body {
     line-height: 22px;
   }
 
+  /* How-work */
+
   .how-work {
     margin-top: 45px;
   }
 
   .how-work__column {
     margin-top: 10px;
+  }
+
+  .how-work__btn {
+    font-size: 1.4rem;
+    padding-top: 5px;
   }
 
   .how-work__img {
@@ -1781,6 +1788,11 @@ body {
     padding: 20px 10px 20px 0;
     font-size: 1.4rem;
     line-height: 24px;
+  }
+
+  .faq__btn {
+    height: 30px;
+    width: 30px;
   }
 
   /* Footer */
