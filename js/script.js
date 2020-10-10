@@ -24,7 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
   
   })
 
+  $( function() {
+    $( ".accordion" ).accordion({
+      active: false,
+      collapsible: true,
+      animate: 400,
+      heightStyle: "content",
+      header: ".faq__body",
+    });
+  } );
+
+  $('.faq__body').prop("tabindex", -1); //fix
+  $('.ui-icon').remove(); // delete span el (arrow)
 });
-
-
 
