@@ -1849,6 +1849,12 @@ body {
 
 }
 
+@media (max-width: 436px) {
+  .hero__button {
+    margin-top: 15px;
+  }
+}
+
 @media (max-width: 412px) {
 
   .hero__titel {
@@ -1858,7 +1864,7 @@ body {
 
   .hero__subtitel {
     margin-top: 5px;
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
 }
@@ -1907,16 +1913,16 @@ body {
 
   .hero__titel {
     padding-top: 35px;
-    font-size: 2rem;
-    line-height: 24px;
+    font-size: 2.4rem;
+    line-height: 28px;
     letter-spacing: 0;
   }
 
   .hero__subtitel {
     padding: 0 15px;
     margin-top: 5px;
-    font-size: 1.2rem;
-    line-height: 15px;
+    font-size: 1.4rem;
+    line-height: 18px;
   }
 
   .btn {
@@ -2098,6 +2104,11 @@ body {
 
 }
 
+@media (max-width: 336px) {
+  .hero__button {
+    margin-top: 10px;
+  }
+}
 
 
 
